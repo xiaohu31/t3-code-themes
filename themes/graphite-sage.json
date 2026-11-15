@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "Graphite Sage",
+  "appearance": "dark",
+  "canvas": "#101312",
+  "accent": "#8fb59e",
+  "colors": {
+    "surface":"#161a19","surfaceRaised":"#1a1f1d","surfaceOverlay":"#1d2321","sidebar":"#121614","toolbar":"#101312","chrome":"#101312","text":"#e3e9e5","textMuted":"#83908a","border":"#222927","toolbarBorder":"#222927","sidebarBorder":"#1b211f","accentForeground":"#0d1411","messageAction":"#8fb59e","messageActionForeground":"#0d1411","codeBackground":"#131716","terminalBackground":"#101312","terminalForeground":"#e3e9e5","terminalCursor":"#8fb59e"
+  },
+  "css": ""
+}

@@ -13,6 +13,7 @@ Each JSON file is the source of truth for one theme. It contains the complete co
 ## Included themes
 
 - **Lunar Graphite** — `themes/lunar-graphite.json`
+- **Graphite Sage** — `themes/graphite-sage.json`
 
 ## Design notes: Lunar Graphite
 
@@ -28,3 +29,5 @@ Future themes belong under `themes/`. Keep each theme in its own JSON file and u
 ## License
 
 MIT
+
+
