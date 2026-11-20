@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Reduced the leading padding of Lunar Graphite conversation rows in the folder sidebar layout so more of each title fits.
+
 ## 1.0.0 - 2026-11-15
 
 - Initial public version of Lunar Graphite.
