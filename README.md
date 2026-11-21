@@ -5,15 +5,32 @@ A growing collection of themes for T3 Code. The first included theme is Lunar Gr
 ## Install
 
 1. Open T3 Code theme settings.
-2. Import the theme JSON you want from `themes/`.
+2. Import a theme JSON from `themes/` or generate the Quiet Graphite JSON below.
 3. Select the imported theme, such as **Lunar Graphite**.
 
-Each JSON file is the source of truth for one theme. It contains the complete color roles and CSS overrides used by that theme.
+Each importable JSON file contains the complete color roles and CSS for one theme.
 
 ## Included themes
 
 - **Lunar Graphite** — `themes/lunar-graphite.json`
 - **Graphite Sage** — `themes/graphite-sage.json`
+- **Quiet Graphite** (light and dark) — [theme generator](themes/quiet-graphite.mjs)
+
+## Quiet Graphite
+
+This version builds on the [Quiet Graphite community skin from T3 Skins](https://www.t3skins.dev/skins/quiet-graphite). It makes the composer, menus, and other native glass surfaces follow T3 Code's **Glass opacity** slider. The composer model picker uses a compact text label, a small chevron, and a subtle hover background.
+
+Run this from the repository root with Node.js 18 or later:
+
+```sh
+node themes/quiet-graphite.mjs
+```
+
+The script downloads the original skin, checks its SHA-256, and creates `quiet-graphite.json` in the current directory. Import that file under **Settings → Appearance**. You can also pass a previously downloaded original file and choose the output path:
+
+```sh
+node themes/quiet-graphite.mjs path/to/original-quiet-graphite.json quiet-graphite.json
+```
 
 ## Design notes: Lunar Graphite
 
@@ -28,6 +45,6 @@ Future themes belong under `themes/`. Keep each theme in its own JSON file and u
 
 ## License
 
-MIT
+The code, themes, and adjustments authored in this repository are MIT licensed. The Quiet Graphite generator obtains the original community skin from T3 Skins.
 
 
