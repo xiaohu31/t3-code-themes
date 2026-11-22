@@ -20,6 +20,8 @@ Each importable JSON file contains the complete color roles and CSS for one them
 
 This version builds on the [Quiet Graphite community skin from T3 Skins](https://www.t3skins.dev/skins/quiet-graphite). It makes the composer, menus, and other native glass surfaces follow T3 Code's **Glass opacity** slider. The composer model picker uses a compact text label, a small chevron, and softer text and icons that respond gradually to T3 Code's **Contrast** slider.
 
+Wide desktop chat composers use a slimmer footer with a softer shadow. The footer tint follows the **Glass opacity** slider.
+
 In chat, file changes appear as a compact activity row with a file count and line totals. In the red–green color scheme, additions and deletions use muted green and red. Select the row to open the full diff.
 
 Download [quiet-graphite.json](https://raw.githubusercontent.com/xiaohu31/t3-code-themes/main/themes/quiet-graphite.json) and import it under **Settings → Appearance**.
